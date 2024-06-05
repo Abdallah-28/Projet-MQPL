@@ -1,5 +1,5 @@
 from typing import List
-
+from projet import Membre
 class NotificationStrategy:
     def envoyer(self, message: str, destinataires: List['Membre']):
         raise NotImplementedError
